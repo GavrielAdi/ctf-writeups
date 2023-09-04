@@ -15,6 +15,7 @@ void vuln(){
 }
 ```
 <br>
+
 This shows that there is a Buffer Overflow Vulnerability that can be exploited using this [code](solve/solve.py) <br>
-Then found the flag.<br>
+Then found the flag<br>
 Flag: `HCS{Buff3r_0v3rfl0wwwwww}`
