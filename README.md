@@ -1,2 +1,1 @@
-# ctf-writeups
-Writeups for CTF
+# zac12's CTF Writeups
