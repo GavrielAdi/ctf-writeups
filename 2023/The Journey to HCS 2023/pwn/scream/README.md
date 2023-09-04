@@ -2,14 +2,19 @@
 Category: Pwn
 
 # Description
-Bisa ga sih ga usah teriak teriak, ribut tau !!!!!
-sebagai mahasiswa aku cuma pingin tidurku tidak diganggu 😞
+Bisa ga sih ga usah teriak teriak, ribut tau !!!!! <br>
+sebagai mahasiswa aku cuma pingin tidurku tidak diganggu 😞 <br>
 `nc <ip> <port>`
 
 # Solution
-When running `nc <ip> <port>` and trying the program, there is something interesting. <br><br>
-![POC 1](images/POC%201.png) <br> 
-
-The "uang" or money value is negative, so we can exploit this using this [code](solve/solve.py) <br>
-Then found the flag<br>
-Flag: `HCS{m1nus_dikit_g4_ngaruh}`
+Given a file named `chall` and `scream.c` and opened it. The `scream.c` file almost has no code and only comments. But there is this function below
+```
+void vuln(){
+  char buffer[0x100];
+  gets(buffer);
+}
+```
+<br>
+This shows that there is a Buffer Overflow Vulnerability that can be exploited using this [code](solve/solve.py) <br>
+Then found the flag.<br>
+Flag: `HCS{Buff3r_0v3rfl0wwwwww}`
