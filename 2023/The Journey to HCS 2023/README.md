@@ -1,6 +1,6 @@
 # The Journey to HCS 2023 Writeups
 Only solved 6 out of 22 problems. Still learning more and more about CTF. <br>
-The write-up is finished.
+Writeup finished.
 
 Contents:
 1. Forensics:
