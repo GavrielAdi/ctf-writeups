@@ -7,7 +7,7 @@ coba deh belanja, tau tau dapat hadiah nanti xixixixi <br>
 `nc <ip> <port>`
 # Solution
 When running `nc <ip> <port>` and trying the program, there is something interesting. <br>
-![POC 1](/images/POC%201.png) <br> 
+![POC 1](images/POC%201.png) <br> 
 
 The "uang" or money value is negative, so we can exploit this using this code
 ```
