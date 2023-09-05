@@ -11,4 +11,4 @@ Contents:
 3. misc:
    - [koecing](./misc/koecing)
 
-Exclude: Sanity Check and Survey
+Not included: Sanity Check and Survey
